@@ -47,7 +47,7 @@ plt.ylabel('Number of passengers')
 plt.show()
 
 plt.bar(titanic_survivors['Survived'], titanic_survivors['Parch'], color = 'pink')
-plt.bar(titanic_nonsurvivors['Survived'], titanic_nonsurvivors['Parch'], color = 'red')
+plt.bar(titanic_nonsurvivors['Survived'], titanic_nonsurvivors['Parch'], color = 'purple')
 plt.xlabel('Survived')
 plt.ylabel('Parch')
 plt.title('Survival Rates by Parents and Children')
